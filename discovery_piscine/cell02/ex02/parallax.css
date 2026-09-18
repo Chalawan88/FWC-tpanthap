@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.img1 {
+    background-image: url('https://static.thairath.co.th/media/00_A5B1056584C1E480.webp');
+}
+
+.img2 {
+    background-image: url('https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW1hZ2VzLzIwMjUvMy8xMS9pbWdfMTc0MTY3MDc2NTMwNF9keGY5NjM3NnUuanBlZyJ9');
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.caption span.border {
+    color: #fff;
+    padding: 18px 25px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.black-block {
+    color: #000000;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.black-block h3 {
+    color: #fff;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
